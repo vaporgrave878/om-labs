@@ -5,12 +5,10 @@ public class Eiler {
     private double f(double x, double y){
         return 2 + 3 * Math.pow(x, 2);
     }
-
+    private double h = 0.1, start = 0;
+    private double a = 0, b = 2;
+    private double x = a, y = start;
     public void eilerStraight() {
-        double h = 0.1, start = 0;
-        double a = 0, b = 2;
-        double x = a, y = start;
-
         while (x < b) {
             y = y + h * f(x + (h / 2), y + (h / 2 * f(x, y)));
             x += h;
@@ -30,6 +28,13 @@ public class Eiler {
             c = (yd1 - y) / (h * h - h * h / 4);
             d = c * h * h;
             System.out.println("x = " + x + " | y = " + y + " | yd = " + yd1 + " | c =  " + d);
+        }
+    }
+    public void eilerCorrected(){
+        while (x < b){
+            y = y + (h/2) * Math.abs(f(x, y) + f(x + h, y + h * f(x, y)));
+            x += h;
+            System.out.println("x= " + x + "\t" + "y= " + y);
         }
     }
 }
