@@ -1,0 +1,15 @@
+
+f	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„…ñî
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Š¶Î
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó“É
+P
+java:S1118":Add a private constructor to hide the implicit public one.(‚ìÌ÷
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÆÇıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÉÏçøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬ß šüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°çÖÉ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(¤İó”
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(÷ËÙûúÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(š™º¶

@@ -1,0 +1,24 @@
+
+<
+java:S1659"Declare "y" on a separate line.(Ð°…œ8Íª“²•/
+E
+java:S1659
+"#Declare "start" on a separate line.(Âø”ÿÿÿÿÿ8ò–‘²•/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´Ç²áüÿÿÿÿ8¼¡²•/
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(šÚ‹ì8Ý‚³•/
+=
+java:S1659" Declare "hd" on a separate line.(¢¢ê‰8®’ò²•/
+E
+java:S1172"(Remove this unused method parameter "y".(›»©Ñ8áÜÙ²•/
+>
+java:S1659"!Declare "yd1" on a separate line.(¢¢ê‰8®’ò²•/
+s
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(Š‘…ûýÿÿÿÿ8©Í‚²•/
+A
+java:S1659"Declare "b" on a separate line.(¹¾öÆøÿÿÿÿ8ñ®’²•/
+=
+java:S1659" Declare "yd" on a separate line.(¢¢ê‰8¯¹õ²•/
+<
+java:S1659"Declare "c" on a separate line.(¢¢ê‰8®’ò²•/
+=
+java:S1659" Declare "xd" on a separate line.(¢¢ê‰8®’ò²•/
