@@ -1,11 +1,13 @@
 package com.java.lab7;
 
 public class Interpolation {
-    private int N = 11;
+    private int N = 5;
     public void lagrange(){
-        double[] X ={0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        double[] Y = {-1, 2, 17, 50, 107, 194, 317, 482, 695, 962, 1289};
-        double x = 3.5;
+        /*double[] X ={0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        double[] Y = {-1, 2, 17, 50, 107, 194, 317, 482, 695, 962, 1289};*/
+        double [] X = {-2, 1, 2, 5, 7};
+        double [] Y = {10, 2, 4, -6, 10};
+        double x = 3;
         double yx = 0, Pr;
         for (int i = 0; i < N; i++){
             Pr = 1;
@@ -30,10 +32,10 @@ public class Interpolation {
     }
 
     public void newtonFirst(){
-        double[] X ={0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        double[] Y = {-1, 2, 17, 50, 107, 194, 317, 482, 695, 962, 1289};
-        double h = 1, d = 1, Pr;
-        double x = 3.5;
+        double [] X = {-3, -1, 1, 3, 5};
+        double [] Y = {10, 2, 4, -6, 10};
+        double h = 2, d = 1, Pr;
+        double x = 3;
         double P = Y[0];
         for (int i = 1; i < N - 1; i++){
             Pr = 1;
