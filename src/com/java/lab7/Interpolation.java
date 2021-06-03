@@ -18,7 +18,7 @@ public class Interpolation {
             }
             yx = yx + Y[i] * Pr;
         }
-        System.out.println("y = " + yx);
+        System.out.println("x = " + x + " y = " + yx);
     }
 
     private double y(double x){ return Math.pow(x, 3) + 3 * Math.pow(x, 2) - x - 1; }
